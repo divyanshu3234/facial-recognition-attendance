@@ -120,14 +120,9 @@ export default function AddClassForm({ onSuccess }: AddClassFormProps) {
             <SelectContent>
               <SelectItem value="Computer Science">Computer Science</SelectItem>
               <SelectItem value="Mathematics">Mathematics</SelectItem>
-              <SelectItem value="Physics">Physics</SelectItem>
-              <SelectItem value="Chemistry">Chemistry</SelectItem>
-              <SelectItem value="Biology">Biology</SelectItem>
-              <SelectItem value="Engineering">Engineering</SelectItem>
-              <SelectItem value="Business">Business</SelectItem>
+              <SelectItem value="HSS">Engineering</SelectItem>
               <SelectItem value="Psychology">Psychology</SelectItem>
               <SelectItem value="English">English</SelectItem>
-              <SelectItem value="History">History</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -139,10 +134,8 @@ export default function AddClassForm({ onSuccess }: AddClassFormProps) {
               <SelectValue placeholder="Select semester" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="Fall">Fall</SelectItem>
-              <SelectItem value="Spring">Spring</SelectItem>
-              <SelectItem value="Summer">Summer</SelectItem>
-              <SelectItem value="Winter">Winter</SelectItem>
+              <SelectItem value="ODDSEM">Fall</SelectItem>
+              <SelectItem value="EVENSEM">Spring</SelectItem>
             </SelectContent>
           </Select>
         </div>
