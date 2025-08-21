@@ -134,8 +134,8 @@ export default function AddClassForm({ onSuccess }: AddClassFormProps) {
               <SelectValue placeholder="Select semester" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="ODDSEM">Fall</SelectItem>
-              <SelectItem value="EVENSEM">Spring</SelectItem>
+              <SelectItem value="ODDSEM">ODDSEM</SelectItem>
+              <SelectItem value="EVENSEM">EVENSEM</SelectItem>
             </SelectContent>
           </Select>
         </div>
