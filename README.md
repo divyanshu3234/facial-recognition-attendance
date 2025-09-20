@@ -1,5 +1,4 @@
 # Facial recognition attendance
+https://v0-facial-recognition-attendance-six.vercel.app/
 
-[![Deployed on Vercel](
-https://v0-facial-recognition-attendance-six.vercel.app/)
 
